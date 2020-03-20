@@ -1,0 +1,34 @@
+{
+  "name": "create-com-npm",
+  "version": "0.0.1",
+  "description": "a npm publish cli",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "npx ts-node-dev ./index.ts" ,
+    "build" : "npx ts-node ./index.ts" ,
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@igit.58corp.com:hrg-fe-zhaopin-tech/create-com-npm.git"
+  },
+  "keywords": [
+    "npm",
+    "cli"
+  ],
+  "author": "chenchao17",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "ora": "^4.0.3",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}
