@@ -2,10 +2,13 @@
   "name": "create-com-npm",
   "version": "0.0.1",
   "description": "a npm publish cli",
+  "bin": {
+    "create-com-npm": "./index.js"
+  },
   "main": "index.js",
   "scripts": {
-    "dev" : "npx ts-node-dev ./index.ts" ,
-    "build" : "npx ts-node ./index.ts" ,
+    "dev" : "npx ts-node-dev ./index" ,
+    "build" : "npx ts-node ./index" ,
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

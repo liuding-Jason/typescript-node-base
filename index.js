@@ -3,7 +3,7 @@ const chalk = require('chalk');//颜色插件
 
 const currentNodeVersion = process.versions.node ; // 返回Node版本信息，如果有多个版本返回多个版本
 const semver = currentNodeVersion.split('.') ; // 所有Node版本的集合
-const major : string = semver[0] ; // 取出第一个Node版本信息
+const major = semver[0] ; // 取出第一个Node版本信息
 
 // 如果当前版本小于4就打印以下信息并终止进程
 if (Number(major) < 4) {
